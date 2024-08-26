@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body{
+    background-color: #d3d3d3;
+    padding-top: 100px;
+}
+
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-inline:20%;
+}
+
+header{
+    display: flex;
+    align-self: center;
+    margin-bottom: 35px;
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+form{
+    width: 350px ;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input{
+    border:none;
+    border-bottom: 2px solid black;
+    padding: 2px;
+}
+
+#atividade, #botao_sub{
+    min-width: 100px;
+    min-height: 27px;
+}
+
+#nota{
+    min-width: 50px;
+    min-height: 27px;
+}
+
+#botao_sub{
+    border:none;
+    color: white;
+    background-color:  rgba(28, 4, 56, 0.671);
+    font-weight: bold;
+}
+
+#botao_sub:hover{
+    cursor: pointer;
+    background-color:  rgba(28, 4, 56, 0.397);
+}
+
+table{
+    padding-top: 20px;
+    font-size: smaller;
+    width: 100%;
+}
+table img{
+    max-height: 20px;
+}
+
+tbody tr:hover{
+    background-color: #fffefe4b;
+}
+
+tfoot:hover{
+    background-color: #fffefe4b;
+}
+
+table th{
+    padding-inline: 10px;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+table td{
+    padding: 7px;
+    text-align: center;
+}
+
+#media{
+    font-weight: bolder;
+}
+
+
+.resultado_aprovado{
+    color: white;
+    background-color: rgba(0, 255, 106, 0.671);
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.resultado_reprovado{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.671);
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
+}
